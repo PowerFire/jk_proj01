@@ -6,6 +6,8 @@ public class Hello {
 //        new Person().hello();
         Person person= new Person();
         person.hello();
+        int age= 19;
+
 
     }
 }

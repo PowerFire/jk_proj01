@@ -6,18 +6,22 @@ public class Hello {
 //        new Person().hello();
         Person person= new Person();
         person.hello();
+        person.hight= 1.7f;
+        person.weight= 66.5f;
+        System.out.println(person.bim());
+
         /*
         *   short   16 bits
-        *   int     32 bits ==> Integer     ==>包裝類別(Wrapper class)
+        *   int     32 bits ==> Integer     ==>Wrapper class
         *   long    64 bits
-        *   char    16 bits ==> Character   ==>包裝類別(Wrapper class)
+        *   char    16 bits ==> Character   ==>Wrapper class
         *   byte    8  bits
-        *   float   32 bits ==> Float       ==>包裝類別(Wrapper class)
-        *   double  64 bits ==> Double      ==>包裝類別(Wrapper class)
-        *   boolean         ==> Boolean     ==>包裝類別(Wrapper class)
-        *   String  類別                    ==> Reference data type 參照資料型態
+        *   float   32 bits ==> Float       ==>Wrapper class
+        *   double  64 bits ==> Double      ==>Wrapper class
+        *   boolean         ==> Boolean     ==>Wrapper class
+        *   String  class                    ==> Reference data type
         */
-        int age= 19;
+        int age= 19; // <=== zone variable
 
 
 

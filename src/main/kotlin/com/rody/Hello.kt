@@ -1,11 +1,12 @@
 package com.rody
 
-fun main() {
+fun main(args: Array<String>) {
 //    println("Hellow Kotlin")
 //    Human().hello()
 
-    val human= Human()
-    human.hello()
+    val human= Human(66.5f,1.7f)
+    //human.hello()
+    println(human.bmi())
     // Kotlin 沒有 基本資料型態, 只有物件的相關型態 Ex: Int, Short, Double, Float, Long
     // val --> 定義完物件後不能再改變
     // var \--> 定義完後可以在改變
@@ -15,7 +16,12 @@ fun main() {
     name="Rody"
 }
 
-class Human {
+class Human(var weight: Float, var height: Float) {
+
+    fun bmi():Float {
+        val bmi=weight/(height*height)
+        return bmi
+    }
     fun hello(){
         println("Hello Kotlin by Human")
     }

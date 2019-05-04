@@ -16,7 +16,14 @@ fun main(args: Array<String>) {
     name="Rody"
 }
 
-class Human(var weight: Float, var height: Float) {
+// 主要建構子
+class Human(var weight: Float, var height: Float,var name:String="") {
+
+    init {
+        println("test $weight")
+    }
+    // 次要建構子
+    //constructor(name:String, weight: Float,height: Float):this(weight,height)
 
     fun bmi():Float {
         val bmi=weight/(height*height)

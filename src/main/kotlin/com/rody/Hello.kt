@@ -14,6 +14,13 @@ fun main(args: Array<String>) {
     val age : Int =19; //ot val age=19 <==Kotlin 會自己推斷型態
     var name:String
     name="Rody"
+
+    val score=88
+    println(score>60)
+
+    val c:Char='A'
+    // error println(c>60)
+    println(c.toInt()>60)
 }
 
 // 主要建構子

@@ -28,8 +28,15 @@ public class Hello {
         *   String  class                    ==> Reference data type
         */
         int age= 19; // <=== zone variable
+        int score=88;
+        System.out.println(score>=60);
+        System.out.println(score>80 && score <90);
+        System.out.println(score>80 || score <90);
+        System.out.println(score< 80 || score <90);
 
-
+        char c="A";
+        System.out.println(c>60);
+        System.out.println(c>'a');
 
     }
 }

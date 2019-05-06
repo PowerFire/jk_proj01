@@ -1,7 +1,19 @@
 package com.rody.student
 
+import java.util.*
+
 fun main() {
-    val stu= Student_kt("Rody",66,88)
+    val scanner= Scanner(System.`in`)
+    print("Please sudent's name:")
+    var name=scanner.next()
+
+    print("Please sudent's enlish:")
+    var english=scanner.nextInt();
+
+    print("Please sudent's math:")
+    var math=scanner.nextInt();
+
+    val stu= Student_kt(name,english,math)
     stu.print()
 }
 

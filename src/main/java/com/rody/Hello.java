@@ -34,7 +34,7 @@ public class Hello {
         System.out.println(score>80 || score <90);
         System.out.println(score< 80 || score <90);
 
-        char c="A";
+        char c='A';
         System.out.println(c>60);
         System.out.println(c>'a');
 

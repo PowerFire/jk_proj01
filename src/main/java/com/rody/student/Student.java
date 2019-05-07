@@ -26,5 +26,17 @@ public class Student {
                 "\t"+(english+math)/2);
     }
 
-
+    public int highest(){
+        /*
+        int max=0;
+        if (english > math) {
+            max=english;
+        }
+        else {
+            max= math;
+        }
+        return max;
+         */
+        return (english > math) ? english : math ;
+    }
 }

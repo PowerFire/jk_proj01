@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b3c480-90ab-44a3-a6da-a105f650f085" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rody/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rody/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rody/student/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rody/student/Student.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rody/student/Student.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="627">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -96,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rody/Hello.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/rody/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rody/student/SchoolRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rody/student/Student.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/rody/student/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rody/student/Student.kt" />
       </list>
     </option>
   </component>
@@ -197,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SchoolRunner">
+  <component name="RunManager" selected="Kotlin.com.kotlin.rody.student.StudentKt">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rody.Hello" />
       <module name="myproj01.main" />
@@ -265,8 +264,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SchoolRunner" />
         <item itemvalue="Kotlin.com.kotlin.rody.student.StudentKt" />
+        <item itemvalue="Application.SchoolRunner" />
         <item itemvalue="Kotlin.com.rody.student.StudentKt" />
         <item itemvalue="Kotlin.com.rody.HelloKt" />
         <item itemvalue="Application.Hello" />
@@ -316,8 +315,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40977442" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39849624" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.40977442" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39849624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917467" />
@@ -346,7 +345,7 @@
       <FILTER>com.rody.student.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/myproj01$com_rody_student_StudentKt.ic" NAME="com.rody.student.StudentKt Coverage Results" MODIFIED="1557155566546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/myproj01$com_kotlin_rody_student_StudentKt.ic" NAME="com.kotlin.rody.student.StudentKt Coverage Results" MODIFIED="1557247256217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/myproj01$com_kotlin_rody_student_StudentKt.ic" NAME="com.kotlin.rody.student.StudentKt Coverage Results" MODIFIED="1557417751538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rody/test.kt" />
@@ -394,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rody/student/Student.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="627">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>

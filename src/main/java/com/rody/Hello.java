@@ -8,13 +8,13 @@ public class Hello {
         person.hello();
         person.hight= 1.7f;
         person.weight= 66.5f;
-        System.out.println("person bmi"+person.bim());
+        System.out.println("person bmi"+person.bmi());
 
         Person person2= new Person(66.5f, 1.7f);
-        System.out.println("person2 bmi"+person2.bim());
+        System.out.println("person2 bmi"+person2.bmi());
 
         Person person3= new Person("Rody",66.5f, 1.7f);
-        System.out.println("person3 name:"+person3.name+" bmi"+person3.bim());
+        System.out.println("person3 name:"+person3.name+" bmi"+person3.bmi());
 
         /*
         *   short   16 bits

@@ -4,7 +4,7 @@ public class Person {
     String name;
     float weight;
     float hight;
-    public float bim() {
+    public float bmi() {
         float bmi= weight/(hight*hight);
         return  bmi;
     }

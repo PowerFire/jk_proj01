@@ -12,13 +12,13 @@ public class GameFor {
         for (int i=0; i<=5; i++){
             System.out.println("Please enter a number");
             number= scanner.nextInt();
-            System.out.println("第"+i+"次"+number);
+            System.out.println("Number:"+i+number);
             if(number==-1){
                 break;
             }
         }
 
-        System.out.println("結束");
+        System.out.println("End");
 
     }
 }
